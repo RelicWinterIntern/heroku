@@ -14,6 +14,7 @@
             <x-input-label for="email" :value="__('Email')" />
             <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
             <x-input-error :messages="$errors->get('email')" class="mt-2" />
+            <p class="fs-1 text-sm text-gray-600 mt-2">Relic社員の方は、会社のメールアドレス<br>(ドメインが@relic.co.jpのアドレス)で登録してください。</p>
         </div>
 
         <!-- Password -->
