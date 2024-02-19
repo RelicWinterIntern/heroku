@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "npm run production",
+        "production": "NODE_ENV=production node_modules/.bin/encore production"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
