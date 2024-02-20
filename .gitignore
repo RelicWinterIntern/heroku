@@ -17,5 +17,3 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-.htpasswd
-/app/Http/Middleware/TrustProxies.php
